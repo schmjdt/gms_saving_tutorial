@@ -4,6 +4,9 @@
 
 save_data = ds_map_create();
 
+// File path to save data
+save_file = "SaveData.sav";
+
 #endregion
 
 #region Transition Stuff
