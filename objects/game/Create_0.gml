@@ -6,7 +6,7 @@ save_data = ds_map_create();
 // File path to save data
 save_file = "SaveData.sav";
 
-ds_map_replace(save_data, "Current Room", room_get_name(room));
+save_data_set_value("Current Room", room_get_name(room));
 
 #endregion
 
