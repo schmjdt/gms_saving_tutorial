@@ -15,6 +15,14 @@ enum States {
 	already_opened
 };
 
-state = States.closed;
+key = save_data_generate_key();
+
+var _save_data = game.save_data[? key];
+
+if (!is_undefined(_save_data) and _save_data == true) {
+	state = States.already_opened;	
+} else {
+	state = States.closed;
+}
 
 timer = 0;

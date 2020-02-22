@@ -1,8 +1,14 @@
 /// @description 
 
-depth = -1;
+#region Save Data
+
+save_data = ds_map_create();
+
+#endregion
 
 #region Transition Stuff
+
+depth = -1;
 
 enum Trans_Dir {
 	left,

@@ -1,7 +1,5 @@
 /// @description
 
-//target_room = room;
-
 ///Change rooms
 switch (state) {
 	case Trans_State.none:
