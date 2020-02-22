@@ -7,5 +7,11 @@ with (game) {
 	
 	save_data = ds_map_secure_load(save_file);
 	
-	room_restart();
+	var _room = save_data[? "Current Room"];
+	
+	if (!is_undefined(_room) and room_get_name(room) != _room) {
+		room_goto(asset_get_index(_room));	
+	} else {	
+		room_restart();
+	}
 }
