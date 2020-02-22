@@ -17,7 +17,7 @@ enum States {
 
 key = save_data_generate_key();
 
-var _save_data = game.save_data[? key];
+var _save_data = save_data_get_value(key);
 
 if (!is_undefined(_save_data) and _save_data == true) {
 	state = States.already_opened;	

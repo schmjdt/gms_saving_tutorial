@@ -1,3 +1,3 @@
 /// @description 
 
-ds_map_replace(save_data, "Current Room", room_get_name(room));
+save_data_set_value("Current Room", room_get_name(room));
