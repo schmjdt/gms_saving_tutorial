@@ -3,9 +3,10 @@
 switch (state) {
 	case States.closed:
 		//Check for clicks
-		if (mouse_check_button_pressed(mb_left) and position_meeting(mouse_x,mouse_y,id)) {
+		if (mouse_check_button_pressed(mb_left) and position_meeting(mouse_x, mouse_y,id)) {
 			timer = 0;
 			state = States.opening;
+			ds_map_replace(game.save_data, key, true);
 		}
 		break;
 	case States.opening:
