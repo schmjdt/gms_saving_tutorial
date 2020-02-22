@@ -1,6 +1,8 @@
-DS Map Saving Tutorial By PixelatedPope Conversion from GMS1 to GMS2 
+GameMaker Studio 2 Saving Tutorials
 
-Converting [PixelatedPope's](https://www.youtube.com/channel/UCnKHIXYeYkehIJtF414f65A) tutorial [DS Map Based Save System](https://www.youtube.com/watch?v=bNsfbCDL2XA) from GMS1 to GMS2.
+Following along [PixelatedPope's](https://www.youtube.com/channel/UCnKHIXYeYkehIJtF414f65A) save system tutorials
+- [DS Map Based Save System](https://www.youtube.com/watch?v=bNsfbCDL2XA) 
+- [Advanced DS Map Based Save System](https://www.youtube.com/watch?v=-Ysa19rGxUA)
 
 Links to his GMS1 files are in the video description.
-Assets used in my files were pulled from his.
+Assets used in my files were pulled from his and done in GMS2
