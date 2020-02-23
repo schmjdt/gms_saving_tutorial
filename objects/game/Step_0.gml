@@ -57,7 +57,11 @@ switch (state) {
 			//We done yet?
 			if (timer >= transition_length) {
 				timer = transition_length;
-				state = Trans_State.in;				
+				state = Trans_State.in;		
+				
+				// Save coin info on room transition
+				save_coin_data_using_ds_grid();
+				
 				room_goto(target_room);				
 			}
 		} else if (state == Trans_State.in) {

@@ -8,6 +8,9 @@ save_file = "SaveData.sav";
 
 save_data_set_value("Current Room", room_get_name(room));
 
+room_restarting = false;
+room_loading = false;
+
 #endregion
 
 #region Item Info
