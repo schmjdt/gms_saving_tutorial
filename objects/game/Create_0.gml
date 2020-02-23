@@ -8,6 +8,19 @@ save_file = "SaveData.sav";
 
 save_data_set_value("Current Room", room_get_name(room));
 
+enum Coins {
+	x, 
+	y,
+	image_speed,
+	start_image_speed,
+	timer,
+	direction,
+	speed,
+	bounce,
+	bounce_height,
+	_length
+}
+
 #endregion
 
 #region Transition Stuff
