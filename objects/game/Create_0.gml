@@ -16,6 +16,7 @@ save_data_set_value("Current Room", room_get_name(room));
 enum Coins {
 	x, 
 	y,
+	image_index,
 	image_speed,
 	start_image_speed,
 	timer,

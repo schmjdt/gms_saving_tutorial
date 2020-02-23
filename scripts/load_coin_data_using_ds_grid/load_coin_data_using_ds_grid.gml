@@ -16,6 +16,7 @@ repeat (_gh) {
 	with (_inst) {
 		x					= _coins[# Coins.x, yy];
 		y					= _coins[# Coins.y, yy];
+		image_index			= _coins[# Coins.image_index, yy];
 		image_speed			= _coins[# Coins.image_speed, yy];
 		start_image_speed	= _coins[# Coins.start_image_speed, yy];
 		direction			= _coins[# Coins.direction, yy];
