@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "9db3faeb-95f4-41bf-9c83-62e297010919",
+            "Value": {
+                "id": "c10976a3-c3dc-4e04-a1b5-d4dacca4621f",
+                "resourcePath": "scripts\\save_data_using_ds_grid\\save_data_using_ds_grid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "2c55acee-f865-49b8-9732-2aa32ce754bc",
@@ -399,6 +407,7 @@
         "28749b55-2570-45e2-b81e-1ae98f4ecad7",
         "f3cac540-e3b3-48a0-a3c2-d4b144513c09",
         "00866a0b-09a7-4495-8e4a-6a71eb1d846a",
+        "9db3faeb-95f4-41bf-9c83-62e297010919",
         "fde4afb0-92d3-4f1f-a187-accb358b17c6"
     ],
     "tutorial": ""
