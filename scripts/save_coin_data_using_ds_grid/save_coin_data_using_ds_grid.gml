@@ -9,7 +9,7 @@ with (obj_coin) {
 	_coins[# Coins.timer, _row]				= timer;
 	_coins[# Coins.direction, _row]			= direction;
 	_coins[# Coins.speed, _row]				= speed;
-	_coins[# Coins.bounce, _row]			= bounce_amount;
+	_coins[# Coins.bounce_amount, _row]		= bounce_amount;
 	_coins[# Coins.bounce_height, _row]		= bounce_height;	
 }
 

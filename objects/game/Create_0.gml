@@ -21,7 +21,7 @@ enum Coins {
 	timer,
 	direction,
 	speed,
-	bounce,
+	bounce_amount,
 	bounce_height,
 	_length
 }
