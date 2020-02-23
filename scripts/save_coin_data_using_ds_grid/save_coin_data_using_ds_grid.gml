@@ -5,6 +5,7 @@ with (obj_coin) {
 	
 	_coins[# Coins.x, _row]					= x;
 	_coins[# Coins.y, _row]					= y;
+	_coins[# Coins.image_speed, _row]		= image_speed;
 	_coins[# Coins.start_image_speed, _row] = start_image_speed;
 	_coins[# Coins.timer, _row]				= timer;
 	_coins[# Coins.direction, _row]			= direction;
