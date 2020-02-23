@@ -1,6 +1,5 @@
 /// @description 
 
-depth = -y;
 var _pos = timer / bounce_length;
 
 if (_pos <= 1) {
@@ -19,4 +18,4 @@ if (_pos <= 1) {
 	//instance_destroy();
 }
 
-timer += 1;
+//timer += 1;
