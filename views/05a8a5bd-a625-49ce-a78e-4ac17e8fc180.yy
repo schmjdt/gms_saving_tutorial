@@ -8,7 +8,7 @@
         "20099b77-fc5a-46b5-a30e-1be346f3df19"
     ],
     "filterType": "GMScript",
-    "folderName": "Coins",
+    "folderName": "Grid",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

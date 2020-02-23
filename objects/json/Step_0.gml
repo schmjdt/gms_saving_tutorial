@@ -1,6 +1,6 @@
 /// @description 
 
-if (mouse_check_button_pressed(mb_left)) {
+if (mouse_check_button_pressed(mb_right)) {
 	// Create instance of coin at mouse 
 	var _inst = instance_create_layer(mouse_x, mouse_y, "Instances", obj_coin);
 	
