@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "05a8a5bd-a625-49ce-a78e-4ac17e8fc180",
+            "Value": {
+                "id": "3e3f725b-71c5-47a7-a699-2bebf9fb4c4d",
+                "resourcePath": "views\\05a8a5bd-a625-49ce-a78e-4ac17e8fc180.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0b6a4d13-1caa-40f5-a3fc-e19d7ce6ee93",
             "Value": {
                 "id": "94becac0-01db-49f4-ad3b-1c8905d18863",
@@ -84,6 +92,14 @@
                 "id": "e8401204-b7d6-4c68-8058-122e751cb4d5",
                 "resourcePath": "sprites\\spr_chest\\spr_chest.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "20099b77-fc5a-46b5-a30e-1be346f3df19",
+            "Value": {
+                "id": "046052ce-0461-4182-9e2f-1264d4627ffc",
+                "resourcePath": "scripts\\load_coin_data_using_ds_grid\\load_coin_data_using_ds_grid.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -271,6 +287,14 @@
             }
         },
         {
+            "Key": "9db3faeb-95f4-41bf-9c83-62e297010919",
+            "Value": {
+                "id": "c10976a3-c3dc-4e04-a1b5-d4dacca4621f",
+                "resourcePath": "scripts\\save_coin_data_using_ds_grid\\save_coin_data_using_ds_grid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "2c55acee-f865-49b8-9732-2aa32ce754bc",
@@ -367,6 +391,14 @@
             }
         },
         {
+            "Key": "fde4afb0-92d3-4f1f-a187-accb358b17c6",
+            "Value": {
+                "id": "19ac6a63-9d9d-4aeb-b1e9-e8df5bcce4eb",
+                "resourcePath": "scripts\\ds_grid_add_row\\ds_grid_add_row.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fdfec75a-b5d0-443f-a036-ce02f71fa6d0",
             "Value": {
                 "id": "3361f9b9-6b86-4194-8623-13d950efa004",
@@ -390,7 +422,10 @@
         "f48381f8-9cf4-4804-9875-f40794d82a16",
         "28749b55-2570-45e2-b81e-1ae98f4ecad7",
         "f3cac540-e3b3-48a0-a3c2-d4b144513c09",
-        "00866a0b-09a7-4495-8e4a-6a71eb1d846a"
+        "00866a0b-09a7-4495-8e4a-6a71eb1d846a",
+        "9db3faeb-95f4-41bf-9c83-62e297010919",
+        "20099b77-fc5a-46b5-a30e-1be346f3df19",
+        "fde4afb0-92d3-4f1f-a187-accb358b17c6"
     ],
     "tutorial": ""
 }

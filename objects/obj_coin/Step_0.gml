@@ -14,9 +14,9 @@ if (_pos <= 1) {
 } else if (timer < room_speed * 2) {
 	z = 0;
 	image_speed = lerp_clamped(start_image_speed, 0, timer / room_speed);
-	image_alpha = lerp(1, 0, timer * .5 / room_speed);
+	//image_alpha = lerp(1, 0, timer * .5 / room_speed);
 } else {
-	instance_destroy();
+	//instance_destroy();
 }
 
 timer += 1;

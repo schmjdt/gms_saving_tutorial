@@ -6,6 +6,7 @@ switch (state) {
 		if (mouse_check_button_pressed(mb_left) and position_meeting(mouse_x, mouse_y,id)) {
 			timer = 0;
 			state = States.opening;
+			// TODO: Won't save the state of mid-coinage if saved during chest opening
 			ds_map_replace(game.save_data, key, true);
 		}
 		break;

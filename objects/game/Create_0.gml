@@ -8,6 +8,28 @@ save_file = "SaveData.sav";
 
 save_data_set_value("Current Room", room_get_name(room));
 
+room_restarting = false;
+room_loading = false;
+
+#endregion
+
+#region Item Info
+
+// Enum of data want to save for obj_coin
+enum Coins {
+	x, 
+	y,
+	image_index,
+	image_speed,
+	start_image_speed,
+	timer,
+	direction,
+	speed,
+	bounce_amount,
+	bounce_height,
+	_length
+}
+
 #endregion
 
 #region Transition Stuff
