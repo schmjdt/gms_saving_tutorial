@@ -2,7 +2,7 @@
     "id": "9c9b4494-0974-44e6-b62f-acdd17ec85f1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "load",
+    "name": "load_grid",
     "eventList": [
         {
             "id": "bec1d9bb-f345-4c41-8a07-689b04047af2",

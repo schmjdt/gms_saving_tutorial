@@ -2,7 +2,7 @@
     "id": "01ca90ef-8bdb-4ce0-b9a2-42f244fef64b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "save",
+    "name": "save_grid",
     "eventList": [
         {
             "id": "43893df8-f7b3-41a1-a1cd-d21f7bce5284",
