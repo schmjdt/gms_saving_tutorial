@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "8abe2d6b-ad88-4c52-b372-00b20315e508",
+            "Value": {
+                "id": "28d3d314-71d8-44e2-99c3-e905603fa83f",
+                "resourcePath": "objects\\pSave\\pSave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8b631fa8-520b-41a7-9c38-7cd3d583662d",
             "Value": {
                 "id": "2fdda8dc-ecf0-48ca-a3cb-2e52c14978a1",
