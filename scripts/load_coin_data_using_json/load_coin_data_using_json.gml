@@ -7,7 +7,9 @@ with (pSave) instance_destroy();
 
 if (!file_exists(json.filename_coin_save)) exit;
 	
-var _wrapper = load_string_from_file(_filename);
+var _string = load_string_from_file(_filename);
+
+var _wrapper = json_decode(_string);
 
 var _list = _wrapper[? "ROOT"];
 

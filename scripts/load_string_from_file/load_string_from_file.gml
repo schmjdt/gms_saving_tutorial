@@ -10,6 +10,4 @@ buffer_delete(_buffer);
 
 var _decoded = base64_decode(_string);
 
-var _json = json_decode(_decoded);
-
-return _json;
+return _decoded;
