@@ -8,6 +8,8 @@ var _buffer = buffer_load(_filename);
 var _string = buffer_read(_buffer, buffer_string);
 buffer_delete(_buffer);
 
-var _json = json_decode(_string);
+var _decoded = base64_decode(_string);
+
+var _json = json_decode(_decoded);
 
 return _json;

@@ -1,3 +1,3 @@
 /// @description 
 
-filename_coin_save = "coindata.sav";
+filename_coin_save = "coindata_encoded.sav";
